@@ -1,0 +1,48 @@
+
+.Slider {
+  width: 300px;
+  min-height: 200px;
+  position: relative;
+}
+
+.Slider_Nav {
+  border: 1px solid red;
+  display: none;
+}
+
+.Slide {
+  width: 300px;
+  height: 200px;
+  box-shadow: 1px 1px 3px rgba(black, 0.5);
+  border: 1px solid black;
+  background-color: dodgerblue;
+}
+
+.Autoplay {
+  background-color: red;
+  display: none;
+}
+
+.Slider .Button {
+  position: absolute;
+  background-color: transparent;
+  color: transparent;
+  top: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.Slider:hover .Button {
+  color: white;
+  border: 1px solid black;
+  background-color: rgba(black, 0.3);
+}
+
+.Slider .Button_prev {
+  left: 0;
+}
+
+.Slider .Button_next {
+  right: 0;
+}

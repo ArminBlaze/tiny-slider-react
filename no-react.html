@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+</head>
+<body>
+	<div class="my-slider">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>
+	</div>
+	
+<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>-->
+<script src="node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
+	
+	<script>
+		let slider = tns({
+			container: '.my-slider',
+			items: 1,
+			slideBy: 1,
+			autoplay: false
+		});
+	</script>
+	
+</body>
+</html>
